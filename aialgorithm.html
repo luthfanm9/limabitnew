@@ -1,61 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Limabit | AI Algorithm</title>
+    <title>Limabit | Design, Development and Managed Services Company</title>
     <link rel="stylesheet" href="./assets/css/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Font Google -->
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-
-</head>
-<body class="bg-neutral-gray">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body class="bg-neutral-gray">
 
     <!-- NAVBAR SECTION -->
 
-    <nav class="fixed z-40 w-screen mx-auto item-center bg-neutral-gray shadow-sm">
-        <div class="flex flex-row max-w-6xl mx-auto justify-between items-center pt-10 pb-6 px-5">
-            <div>
-                <a href="index.html">
-                    <svg width="149" height="30" viewBox="0 0 149 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_68)">
-                        <path d="M47.2471 7.00181V2.90894H52.017V7.00181H47.2471ZM52.0296 24.3538V6.97122H56.7995V24.352H52.0296V24.3538Z" fill="#080C2E"/>
-                        <path d="M125.213 7.00181V2.90894H129.983V7.00181H125.213ZM129.995 24.3538V6.97122H134.765V24.352H129.995V24.3538Z" fill="#080C2E"/>
-                        <path d="M83.3854 6.85425H80.9121C78.5849 6.85425 76.6326 8.60834 76.1062 10.9723C75.5023 8.59754 73.5085 6.85425 71.1398 6.85425H62.7754V10.9363H59.3124V24.3052H64.0949V14.18C64.0949 12.6077 65.2631 11.3321 66.7052 11.3321H68.3889C69.9338 11.3321 71.1849 12.6976 71.1849 14.3833V24.3052H76.2955V14.18C76.2955 12.6077 77.4636 11.3321 78.9058 11.3321H80.7535C82.2984 11.3321 83.5495 12.6976 83.5495 14.3833V24.3052H88.2887C88.3121 24.3052 88.332 24.2836 88.332 24.2584V12.2514C88.332 9.27039 86.1165 6.85425 83.3854 6.85425Z" fill="#080C2E"/>
-                        <path d="M103.336 10.9363V6.85425H95.092C92.361 6.85425 90.1455 9.27039 90.1455 12.2514V14.0505H95.2561V13.3309C95.2561 12.1381 96.1412 11.172 97.2354 11.172H100.203C101.295 11.172 102.182 12.1381 102.182 13.3309V15.0742H93.9618C91.8544 15.0742 90.1455 16.938 90.1455 19.2372V20.1403C90.1455 22.4395 91.8544 24.3034 93.9618 24.3034H106.799V10.9363H103.336ZM102.182 21.0381H95.6689C94.9857 21.0381 94.4322 20.4336 94.4322 19.6888C94.4322 18.944 94.9857 18.3395 95.6689 18.3395H102.182V21.0381Z" fill="#080C2E"/>
-                        <path d="M148.5 11.2745V6.97298H143.35V3.60693H138.58V6.97298H136.069V11.2745H138.58V18.075C138.58 18.5823 138.612 19.0555 138.672 19.4963H141.424V23.7295C142.297 24.1504 143.35 24.3537 144.558 24.3537H148.5V19.6708H145.639C143.954 19.6708 143.35 19.2192 143.35 17.4849V11.2745H148.5Z" fill="#080C2E"/>
-                        <path d="M123.122 8.77763H114.383V2.89648H109.272V21.1912H112.239V24.3053H123.122C125.853 24.3053 128.068 21.8892 128.068 18.9082V14.1748C128.068 11.1938 125.853 8.77763 123.122 8.77763ZM123.122 17.2224C123.122 18.7139 122.013 19.9246 120.645 19.9246H114.334V13.1547H120.645C122.013 13.1547 123.122 14.3637 123.122 15.8569V17.2224Z" fill="#080C2E"/>
-                        <path d="M37.4351 19.6691V1.10815H32.6652V21.3656H35.6V24.3539H50.1206V19.6691H37.4351Z" fill="#080C2E"/>
-                        <path d="M25.377 10.9887L16.1833 12.606C15.6858 12.6942 15.282 12.3614 15.282 11.8648V2.68961C15.282 2.19307 15.6858 1.71991 16.1833 1.63176L25.377 0.0143993C25.8745 -0.0737549 26.2783 0.259072 26.2783 0.755614V9.93084C26.2783 10.4274 25.8745 10.9005 25.377 10.9887Z" fill="#640EF1"/>
-                        <path d="M24.1151 24.7028L16.9044 25.9712C16.4069 26.0593 16.0031 25.7265 16.0031 25.23V18.0337C16.0031 17.5372 16.4069 17.064 16.9044 16.9759L24.1151 15.7075C24.6126 15.6194 25.0164 15.9522 25.0164 16.4487V23.645C25.0164 24.1415 24.6126 24.6147 24.1151 24.7028Z" fill="#640EF1"/>
-                        <path d="M10.2345 12.7536L3.02378 14.022C2.52624 14.1101 2.12244 13.7773 2.12244 13.2807V6.08449C2.12244 5.58794 2.52624 5.11479 3.02378 5.02664L10.2345 3.7583C10.732 3.67014 11.1358 4.00297 11.1358 4.49951V11.6958C11.1358 12.1923 10.732 12.6655 10.2345 12.7536Z" fill="#640EF1"/>
-                        <path d="M1.40134 29.5999C1.19043 29.5999 0.984921 29.5244 0.82268 29.3894C0.617174 29.2185 0.5 28.9666 0.5 28.7004V23.4525C0.5 23.0153 0.813666 22.6429 1.24451 22.5674L6.39476 21.6606C6.8256 21.5851 7.13927 21.2109 7.13927 20.7755V15.659C7.13927 15.2218 7.45294 14.8494 7.88378 14.7738L13.1422 13.8491C13.1945 13.8401 13.2467 13.8347 13.299 13.8347C13.5099 13.8347 13.7154 13.9103 13.8777 14.0452C14.0832 14.2161 14.2004 14.468 14.2004 14.7342V19.9821C14.2004 20.4193 13.8867 20.7917 13.4559 20.8673L8.3056 21.774C7.87476 21.8495 7.5611 22.2238 7.5611 22.6591V27.7757C7.5611 28.2128 7.24743 28.5852 6.81659 28.6608L1.55817 29.5855C1.5059 29.5945 1.45362 29.5999 1.40134 29.5999Z" fill="#640EF1"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_68">
-                        <rect width="148" height="29.6" fill="white" transform="translate(0.5)"/>
-                        </clipPath>
-                        </defs>
-                    </svg>
-                </a>
-            </div>                        
-            <ul class="flex flex-row gap-x-12">
-                <li>
-                    <a href="about.html" class="font-body font-medium text-lg text-secondary-dark hover:text-primary">
-                    ABOUT
-                    </a>
-                </li>
-                <li class="md:block hidden">
-                    <a href="mailto:info@limabit.com" class="font-body font-medium text-lg text-secondary-dark hover:text-primary">
-                    CONTACT
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <nav
+      class="fixed z-40 w-screen mx-auto item-center bg-neutral-gray shadow-sm">
+      <div
+        class="flex flex-row max-w-6xl mx-auto justify-between items-center pt-10 pb-6 px-5">
+        <a href="index.html">
+            <svg
+          width="149"
+          height="30"
+          viewBox="0 0 149 30"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_1_68)">
+            <path
+              d="M47.2471 7.00181V2.90894H52.017V7.00181H47.2471ZM52.0296 24.3538V6.97122H56.7995V24.352H52.0296V24.3538Z"
+              fill="#080C2E"
+            />
+            <path
+              d="M125.213 7.00181V2.90894H129.983V7.00181H125.213ZM129.995 24.3538V6.97122H134.765V24.352H129.995V24.3538Z"
+              fill="#080C2E"
+            />
+            <path
+              d="M83.3854 6.85425H80.9121C78.5849 6.85425 76.6326 8.60834 76.1062 10.9723C75.5023 8.59754 73.5085 6.85425 71.1398 6.85425H62.7754V10.9363H59.3124V24.3052H64.0949V14.18C64.0949 12.6077 65.2631 11.3321 66.7052 11.3321H68.3889C69.9338 11.3321 71.1849 12.6976 71.1849 14.3833V24.3052H76.2955V14.18C76.2955 12.6077 77.4636 11.3321 78.9058 11.3321H80.7535C82.2984 11.3321 83.5495 12.6976 83.5495 14.3833V24.3052H88.2887C88.3121 24.3052 88.332 24.2836 88.332 24.2584V12.2514C88.332 9.27039 86.1165 6.85425 83.3854 6.85425Z"
+              fill="#080C2E"
+            />
+            <path
+              d="M103.336 10.9363V6.85425H95.092C92.361 6.85425 90.1455 9.27039 90.1455 12.2514V14.0505H95.2561V13.3309C95.2561 12.1381 96.1412 11.172 97.2354 11.172H100.203C101.295 11.172 102.182 12.1381 102.182 13.3309V15.0742H93.9618C91.8544 15.0742 90.1455 16.938 90.1455 19.2372V20.1403C90.1455 22.4395 91.8544 24.3034 93.9618 24.3034H106.799V10.9363H103.336ZM102.182 21.0381H95.6689C94.9857 21.0381 94.4322 20.4336 94.4322 19.6888C94.4322 18.944 94.9857 18.3395 95.6689 18.3395H102.182V21.0381Z"
+              fill="#080C2E"
+            />
+            <path
+              d="M148.5 11.2745V6.97298H143.35V3.60693H138.58V6.97298H136.069V11.2745H138.58V18.075C138.58 18.5823 138.612 19.0555 138.672 19.4963H141.424V23.7295C142.297 24.1504 143.35 24.3537 144.558 24.3537H148.5V19.6708H145.639C143.954 19.6708 143.35 19.2192 143.35 17.4849V11.2745H148.5Z"
+              fill="#080C2E"
+            />
+            <path
+              d="M123.122 8.77763H114.383V2.89648H109.272V21.1912H112.239V24.3053H123.122C125.853 24.3053 128.068 21.8892 128.068 18.9082V14.1748C128.068 11.1938 125.853 8.77763 123.122 8.77763ZM123.122 17.2224C123.122 18.7139 122.013 19.9246 120.645 19.9246H114.334V13.1547H120.645C122.013 13.1547 123.122 14.3637 123.122 15.8569V17.2224Z"
+              fill="#080C2E"
+            />
+            <path
+              d="M37.4351 19.6691V1.10815H32.6652V21.3656H35.6V24.3539H50.1206V19.6691H37.4351Z"
+              fill="#080C2E"
+            />
+            <path
+              d="M25.377 10.9887L16.1833 12.606C15.6858 12.6942 15.282 12.3614 15.282 11.8648V2.68961C15.282 2.19307 15.6858 1.71991 16.1833 1.63176L25.377 0.0143993C25.8745 -0.0737549 26.2783 0.259072 26.2783 0.755614V9.93084C26.2783 10.4274 25.8745 10.9005 25.377 10.9887Z"
+              fill="#640EF1"
+            />
+            <path
+              d="M24.1151 24.7028L16.9044 25.9712C16.4069 26.0593 16.0031 25.7265 16.0031 25.23V18.0337C16.0031 17.5372 16.4069 17.064 16.9044 16.9759L24.1151 15.7075C24.6126 15.6194 25.0164 15.9522 25.0164 16.4487V23.645C25.0164 24.1415 24.6126 24.6147 24.1151 24.7028Z"
+              fill="#640EF1"
+            />
+            <path
+              d="M10.2345 12.7536L3.02378 14.022C2.52624 14.1101 2.12244 13.7773 2.12244 13.2807V6.08449C2.12244 5.58794 2.52624 5.11479 3.02378 5.02664L10.2345 3.7583C10.732 3.67014 11.1358 4.00297 11.1358 4.49951V11.6958C11.1358 12.1923 10.732 12.6655 10.2345 12.7536Z"
+              fill="#640EF1"
+            />
+            <path
+              d="M1.40134 29.5999C1.19043 29.5999 0.984921 29.5244 0.82268 29.3894C0.617174 29.2185 0.5 28.9666 0.5 28.7004V23.4525C0.5 23.0153 0.813666 22.6429 1.24451 22.5674L6.39476 21.6606C6.8256 21.5851 7.13927 21.2109 7.13927 20.7755V15.659C7.13927 15.2218 7.45294 14.8494 7.88378 14.7738L13.1422 13.8491C13.1945 13.8401 13.2467 13.8347 13.299 13.8347C13.5099 13.8347 13.7154 13.9103 13.8777 14.0452C14.0832 14.2161 14.2004 14.468 14.2004 14.7342V19.9821C14.2004 20.4193 13.8867 20.7917 13.4559 20.8673L8.3056 21.774C7.87476 21.8495 7.5611 22.2238 7.5611 22.6591V27.7757C7.5611 28.2128 7.24743 28.5852 6.81659 28.6608L1.55817 29.5855C1.5059 29.5945 1.45362 29.5999 1.40134 29.5999Z"
+              fill="#640EF1"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_1_68">
+              <rect
+                width="148"
+                height="29.6"
+                fill="white"
+                transform="translate(0.5)"
+              />
+            </clipPath>
+          </defs>
+            </svg>
+        </a>
+        
+        <ul class="flex flex-row lg:gap-x-12 gap-x-4">
+          <li>
+            <div class="group flex flex-row gap-x-1 items-center">
+              <button
+              onclick="toggleDropdown()"
+              class="font-body font-medium text-lg text-secondary-dark group-hover:text-primary"
+              >SERVICES</button>
+            <!-- Icon Default -->
+            <svg class="group-hover:hidden block width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.8614 9.53635L11.9864 16.4113C11.9225 16.4753 11.8467 16.526 11.7633 16.5606C11.6798 16.5952 11.5903 16.613 11.5 16.613C11.4096 16.613 11.3202 16.5952 11.2367 16.5606C11.1533 16.526 11.0774 16.4753 11.0136 16.4113L4.13858 9.53635C4.00958 9.40735 3.9371 9.23238 3.9371 9.04994C3.9371 8.86751 4.00958 8.69254 4.13858 8.56354C4.26758 8.43453 4.44255 8.36206 4.62499 8.36206C4.80742 8.36206 4.98239 8.43453 5.11139 8.56354L11.5 14.953L17.8886 8.56354C17.9525 8.49966 18.0283 8.44899 18.1117 8.41442C18.1952 8.37985 18.2847 8.36206 18.375 8.36206C18.4653 8.36206 18.5548 8.37985 18.6382 8.41442C18.7217 8.44899 18.7975 8.49966 18.8614 8.56354C18.9253 8.62741 18.9759 8.70324 19.0105 8.7867C19.0451 8.87016 19.0629 8.95961 19.0629 9.04994C19.0629 9.14028 19.0451 9.22973 19.0105 9.31318C18.9759 9.39664 18.9253 9.47247 18.8614 9.53635Z" fill="black" stroke="black"/>
+            </svg>
+            <!-- Icon Hover -->
+             <svg class="group-hover:block hidden" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.8614 9.53635L11.9864 16.4113C11.9225 16.4753 11.8467 16.526 11.7633 16.5606C11.6798 16.5952 11.5903 16.613 11.5 16.613C11.4096 16.613 11.3202 16.5952 11.2367 16.5606C11.1533 16.526 11.0774 16.4753 11.0136 16.4113L4.13858 9.53635C4.00958 9.40735 3.9371 9.23238 3.9371 9.04994C3.9371 8.86751 4.00958 8.69254 4.13858 8.56354C4.26758 8.43453 4.44255 8.36206 4.62499 8.36206C4.80742 8.36206 4.98239 8.43453 5.11139 8.56354L11.5 14.953L17.8886 8.56354C17.9525 8.49966 18.0283 8.44899 18.1117 8.41442C18.1952 8.37985 18.2847 8.36206 18.375 8.36206C18.4653 8.36206 18.5548 8.37985 18.6382 8.41442C18.7217 8.44899 18.7975 8.49966 18.8614 8.56354C18.9253 8.62741 18.9759 8.70324 19.0105 8.7867C19.0451 8.87016 19.0629 8.95961 19.0629 9.04994C19.0629 9.14028 19.0451 9.22973 19.0105 9.31318C18.9759 9.39664 18.9253 9.47247 18.8614 9.53635Z" fill="#640EF1" stroke="#640EF1"/>
+            </svg>
+            </div>
+            <!-- Dropdown Content -->
+            <div
+            id="dropdownMenu" class="hidden absolute right-50 mt-2 w-auto bg-white shadow-2xl rounded-lg"
+            >
+              <a
+                href="development.html"
+                class="block lg:pr-24 pr-fill lg:pl-4 pl-2.5 py-4 lg:text-xl text-lg font-medium text-gray-700 hover:text-gray-100 bg-gray-100 hover:bg-primary rounded-lg"
+                >Development</a>
+              <a
+                href="manageservice.html"
+                class="block lg:pr-24 pr-22 lg:pl-4 pl-2.5 py-4 lg:text-xl text-lg font-medium text-gray-700 hover:text-gray-100 bg-gray-100 hover:bg-primary rounded-lg
+                "
+                >Managed Service</a>
+              <a
+                href="#"
+                class="block lg:pr-24 pr-12 lg:pl-4 pl-2.5 py-4 lg:text-xl text-lg font-medium text-gray-700 hover:text-gray-100 bg-gray-100 hover:bg-primary rounded-lg
+                "
+                >AI Algorithm</a>
+            </div>  
+          </li>
+          <li>
+            <a
+              href="about.html"
+              class="font-body font-medium text-lg text-secondary-dark hover:text-primary"
+              >ABOUT</a>
+          </li>
+          <li class="md:block hidden">
+            <a
+              href="mailto:info@limabit.com"
+              class="font-body font-medium text-lg text-secondary-dark hover:text-primary"
+              >CONTACT</a
+            >
+            
+          </li>
+        </ul>
+      </div>
     </nav>
+
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+    function toggleDropdown() {
+      const dropdownMenu = document.getElementById("dropdownMenu");
+  
+      if (dropdownMenu.style.display === "none" || !dropdownMenu.style.display) {
+        dropdownMenu.style.display = "block";
+        setTimeout(() => {
+          dropdownMenu.classList.remove("opacity-0", "scale-95");
+          dropdownMenu.classList.add("opacity-100", "scale-100", "bg-white");
+        }, 10); // Slight delay to trigger animation
+      } else {
+        dropdownMenu.classList.remove("opacity-100", "scale-100", "bg-white");
+        dropdownMenu.classList.add("opacity-0", "scale-95");
+        setTimeout(() => {
+          dropdownMenu.style.display = "none";
+        }, 300); // Match this delay to the transition duration
+      }
+    }
+
+    // Close the dropdown if clicked outside
+    function closeDropdownIfClickedOutside(event) {
+      const dropdownMenu = document.getElementById("dropdownMenu");
+      const button = document.querySelector('button');
+      
+      if (dropdownMenu.style.display === "block" && !dropdownMenu.contains(event.target) && !button.contains(event.target)) {
+        dropdownMenu.classList.remove("opacity-100", "scale-100", "bg-white");
+        dropdownMenu.classList.add("opacity-0", "scale-95");
+        setTimeout(() => {
+          dropdownMenu.style.display = "none";
+        }, 300); // Match this delay to the transition duration
+      }
+    }
+
+    document.querySelector('button').addEventListener('click', toggleDropdown);
+    document.addEventListener('click', closeDropdownIfClickedOutside);
+  });
+    </script>
 
     <!-- ABOUT SECTION -->
 
